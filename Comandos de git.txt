@@ -32,6 +32,20 @@ git clone "URL del repo"
 git pull origin master
 
 
+(Verificar la rama donde nos encontramos)
+git branch
 
+(Crear una nueva rama)
+git branch nombre_rama
 
+(cambiar nombre de una rama)
+git branch -m nombre_rama_actual nombre_nuevo
 
+(Cambiar a la nueva rama)
+git checkout nombre_rama
+
+(Eliminar una rama)
+git branch -d nombre_rama
+
+(Crear archivos desde terminal)
+touch 'Nombre_archivo.txt'
