@@ -23,4 +23,15 @@ git push -u origin master
 
 (GIT pedirá autenticar tu cuenta)
 
+(Clonar un repositorio del remoto al local)
+git clone "URL del repo"
+
+(Pull para actualizar el repo local con los cambios hechos en el remoto)
+(origin es el nombre de nuestra raíz)
+(master es la rama)
+git pull origin master
+
+
+
+
 
