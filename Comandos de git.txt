@@ -1,0 +1,26 @@
+(Inicializa un repo vacío)
+git init 
+
+(Configurar credenciales del autor)
+git config user.name "Nombre de usuario"
+git config user.email "Correro electrónico"
+
+(Configura el origen del repo remoto)
+git remote add origin "URL del repo https"
+
+(Verificar los cambios del repo)
+git status
+
+(Agregar posibles archivos a subir al repo)
+git add 'archivo_ejemplo.txt'
+
+(Realizar commit)
+git commit -m "Mensaje/comentario del repo"
+
+(Subir los archivos de forma definitiva)
+(master es la rama donde subiremos el archivo por defecto)
+git push -u origin master 
+
+(GIT pedirá autenticar tu cuenta)
+
+
