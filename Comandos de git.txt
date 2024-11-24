@@ -13,6 +13,8 @@ git status
 
 (Agregar posibles archivos a subir al repo)
 git add 'archivo_ejemplo.txt'
+(Añadir todo)
+git add .
 
 (Realizar commit)
 git commit -m "Mensaje/comentario del repo"
@@ -30,6 +32,22 @@ git clone "URL del repo"
 (origin es el nombre de nuestra raíz)
 (master es la rama)
 git pull origin master
+
+(Saber la rama en la que nos ubicamos)
+git branch
+
+(crear una nueva rama)
+git branch nombre_rama
+
+(cambiar a esa rama)
+git checkout nombre_rama
+
+(eliminar una rama)
+git branch -d nombre_rama
+
+(Cambiar nombre a una rama)
+git branch -m nombre_actual nuevo_nombre
+
 
 
 
