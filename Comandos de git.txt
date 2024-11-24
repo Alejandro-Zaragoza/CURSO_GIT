@@ -48,8 +48,8 @@ git branch -d nombre_rama
 (Cambiar nombre a una rama)
 git branch -m nombre_actual nuevo_nombre
 
-
-
+(Conocer las diferencias entre dos ramas)
+git diff primer_rama segunda_rama
 
 
 
